@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background: url(profil/bayrak.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} /* Anasayfay ile ilgili içeriklerin yönetildiği kısım */
+
+.fors_logo{
+    float: left;
+    margin-top: 18px;
+    margin-left: 175px;
+} /*Cumhurbaşkanlığı forsu (logo)*/
+
+.border1{
+    position: absolute;
+    background-color:rgb(1,97,172);
+    width: 996px;
+    height: 792px;
+    margin-top: 100px;
+    float: left;
+    margin-left: 175px;
+    border-radius: 3px;
+    border: black;
+}/* Alt-üst border mavilik */
+
+.border2{
+    position: fixed;
+    background-color: rgb(238,238,238);
+    width: 997px;
+    height: 775px;
+    position: relative;
+    float: left;
+    margin-left: 175px;
+    margin-top:17px;
+    background: rgba(250,250,250,1);
+    background: -moz-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 0%, rgba(247,247,247,1) 29%, rgba(255,255,255,1) 50%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250,250,250,1)), color-stop(0%, rgba(255,255,255,1)), color-stop(0%, rgba(237,237,237,1)), color-stop(29%, rgba(247,247,247,1)), color-stop(50%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 0%, rgba(247,247,247,1) 29%, rgba(255,255,255,1) 50%);
+    background: -o-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 0%, rgba(247,247,247,1) 29%, rgba(255,255,255,1) 50%);
+    background: -ms-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 0%, rgba(247,247,247,1) 29%, rgba(255,255,255,1) 50%);
+    background: linear-gradient(to bottom, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 0%, rgba(247,247,247,1) 29%, rgba(255,255,255,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#ffffff', GradientType=0 );
+}/*üst gri border*/
+
+
+
+.anasayfa{
+    color: rgb(82,82,82);
+    position: relative;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    float: left;
+    margin-top: -765px;   
+    margin-left: 200px; /*ANASAYFA YAZISI*/
+}
+
+.anasayfa:hover{
+    background-color:white;
+    text-align: center;
+}
+
+.anasayfa:hover:hover{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 3px;
+    display: flex;
+    text-align: center;
+    right: 20px;
+    
+    
+}
+
+a:link{
+     color: rgb(82,82,82);
+     text-decoration: none;
+ }
+ 
+
+.görsel{
+    color: rgb(82,82,82);
+    position: relative;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    float: left;
+    margin-top: -765px;
+    margin-left: 318px; /*görsel YAZISI*/
+} 
+
+.görsel:hover{
+    background-color:white;
+    text-align: center;
+}
+
+.görsel:hover:hover{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 3px;
+    display: flex;
+    text-align: center;
+    right: 20px;
+    
+    
+}
+
+
+.hakkımda{
+    color: rgb(82,82,82);
+    position: relative;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    float: left;
+    margin-top: -765px;
+    margin-left: 447px; /*HAKKIMDA YAZISI*/
+}
+
+.hakkımda:hover{
+    background-color:white;
+    text-align: center;
+}
+
+.hakkımda:hover:hover{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 3px;
+    display: flex;
+    text-align: center;
+    right: 20px;
+    
+}
+
+
+.iletişim{
+    color: rgb(82,82,82);
+    position: relative;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    float: left;
+    margin-top: -765px;
+    margin-left:583px; /*İLETİŞİM YAZISI*/
+}
+.iletişim:hover{
+    background-color:white;
+    text-align: center;
+}
+
+.iletişim:hover:hover{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 3px;
+    display: flex;
+    text-align: center;
+    right: 20px;
+}
+
+
+.resim2{
+    position: relative;
+    float: left;
+    margin-top: -740px;
+    margin-left: 185px;
+} /*Atatürk Resim boyutlandırma ve konumlandırma*/
+
+.dogum{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    float: left;
+    margin-top: -320px;
+    margin-left: 460px;
+
+} /* Atatürkün yazıları */
+
+.dogum2{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    float: left;
+    margin-top: 20px;
+    margin-left: -460px;
+
+} /* Atatürkün yazısı*/
+
+.imza{
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    margin-left: 820px;
+} /* imza Görseli konumlandırma */
+
+
+.bayaryazı{
+    position: relative;
+    float: left;
+    margin-top: 220px;
+    margin-left: -470px;
+}/* celal bayar yazı konumlandırma*/
+
+.inonuyazı{
+    position: relative;
+    float: left;
+    margin-top: 195px;
+    margin-left: -470px;
+}/* ismet inönü yazı konumlandırma */
+
+.gürselyazı{
+    position: relative;
+    float: left;
+    margin-top: 240px;
+    margin-left: -470px;
+    margin-bottom: 2px;
+}/* cemal gürsel yazı konumlandırma */
+
+
+.sunayyazı{
+    position: relative;
+    float: left;
+    margin-top: 240px;
+    margin-left: -470px;
+    margin-bottom: 2px;
+}/* cevdet sunay yazı konumlandırma */
+
+.koruturkyazı{
+    position: relative;
+    float: left;
+    margin-top: 180px;
+    margin-left: -465px;
+    margin-bottom: 2px;
+}/* farhri korutürk yazı konumlandırma */
+
+.evrenyazı{
+    position: relative;
+    float: left;
+    margin-top: 235px;
+    margin-left: -465px;
+    margin-bottom: 2px;
+}/* Kenan evren yazı konumlandırma */
+
+.ozalyazı{
+    position: relative;
+    float: left;
+    margin-top: 235px;
+    margin-left: -465px;
+    margin-bottom: 2px;
+}/* Turgut özal yazı konumlandırma */
+
+.demirelyazı{
+    position: relative;
+    float: left;
+    margin-top: 235px;
+    margin-left: -465px;
+    margin-bottom: 2px;
+}/* süleyman demirel yazı konumlandırma */
+
+.sezeryazı{
+    position: relative;
+    float: left;
+    margin-top: 235px;
+    margin-left: -465px;
+    margin-bottom: 2px;
+}/* ahmet necdet sezer yazı konumlandırma */
+
+.gulyazı{
+    position: relative;
+    float: left;
+    margin-top: 185px;
+    margin-left: -465px;
+    margin-bottom: 2px;
+}/* abdullah gül yazı konumlandırma */
+
+
+.erdoğanyazı{
+    position: relative;
+    float: left;
+    margin-top: 185px;
+    margin-left: -465px;
+    margin-bottom: 2px;
+}/* recep tayyip erdoğan yazı konumlandırma */
+
+.hakkımdayazı{
+    position: relative;
+    float: left;
+    margin-top: 185px;
+    margin-left: -465px;
+    margin-bottom: 2px;
+}/* mevlüt çelmeli yazı konumlandırma */
+
+
+.ses{
+    
+    float: left;
+    margin-top: -65px;
+    margin-left: 320px;
+} /* İstiklal Marşımız*/
+
+.video{
+    float: left;
+    margin-top: 45px;
+    margin-left: 15px;
+} /*  video konumlandırma */
+
+
+.video2{
+    float: left;
+    margin-top: 30px;
+    margin-left: 0px;
+} /* video konumlandırma 2 */
+
+
+.inonn{
+    position: relative;
+    float: left;
+    margin-top: -720px;
+    margin-left: 195px;
+} /* inönü video konumlandırma */
+
+
+ 
+.cumhurbaşkanlarımız{
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-top:-735px;
+    margin-left: 220px;
+    font-style:italic;
+
+}/* Yazı ve konumlandırma */
+
+#cumhurbaskanlarimiz{
+    position: relative;
+    float: left;
+    margin-top:-655px;
+    margin-left:221px;
+    
+}/*  atatürk görsel kısmında görsel konumlandırma*/
+
+.cumhurbaskanlarimiz2{
+    position: relative;
+    float: left;
+    margin-top:-245px;
+    margin-left:237px;
+}/* ismet inönü görsel kısmında görsel konumlandırma*/
+
+.cumhurbaskanlarimiz3{
+    position: relative;
+    float: left;
+    margin-top:-245px;
+    margin-left:35px;
+}/* celal bayar görsel kısmında görsel konumlandırma*/
+
+.cumhurbaskanlarimiz4{
+    position: relative;
+    float: left;
+    margin-top:-245px;
+    margin-left:50px;
+}/* cemal gürselgörsel kısmında görsel konumlandırma*/
+
+.cumhurbaskanlarimiz5{
+    position: relative;
+    float: left;
+    margin-top:7px;
+    margin-left:-930px;
+}/* cevdet sunay görsel kısmında görsel konumlandırma*/
+
+
+.cumhurbaskanlarimiz6{
+    position: relative;
+    float: left;
+    margin-top:7px;
+    margin-left:-690px;
+}/* fahri korutürk görsel kısmında görsel konumlandırma*/
+
+.cumhurbaskanlarimiz7{
+    position: relative;
+    float: left;
+    margin-top:7px;
+    margin-left:-445px;
+}/* kenan evren görsel kısmında görsel konumlandırma*/
+
+.cumhurbaskanlarimiz8{
+    position: relative;
+    float: left;
+    margin-top:7px;
+    margin-left:-190px;
+}/* turgut özal görsel kısmında görsel konumlandırma*/
+
+.cumhurbaskanlarimiz9{
+    position: relative;
+    float: left;
+    margin-top:-8px;
+    margin-left:0x;
+}/* süleyman demirel görsel kısmında görsel konumlandırma*/
+
+.cumhurbaskanlarimiz10{
+    position: relative;
+    float: left;
+    margin-top:-8px;
+    margin-left:35px;
+}/* ahmet necdet sezer görsel kısmında görsel konumlandırma*/
+
+.cumhurbaskanlarimiz11{
+    position: relative;
+    float: left;
+    margin-top:-8px;
+    margin-left:38px;
+}/* abdullah gül görsel kısmında görsel konumlandırma*/
+
+.cumhurbaskanlarimiz12{
+    position: relative;
+    float: left;
+    margin-top:-8px;
+    margin-left:25px;
+}/* recep tayyip erdoğan görsel kısmında görsel konumlandırma*/
+
+.ortalama{
+    float: left;
+    margin-left: 150px;
+}
+.ençokziyare{
+    color: #777777;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal;
+    float: left;
+    margin-top: 35px;
+    margin-left: 40px; /*En alt yazının yönetimde olan cumhurbaşkanı  yazısının ara çizgisi*/
+}
+
+.deneme2{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal;
+    float: left;
+    margin-top: 35px;
+    margin-left: 125px; /*En alt yazının m.kemal atatürk yazısının ara çizgisi*/
+}
+
+.deneme3{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal;
+    float: left;
+    margin-top: 33px;
+    margin-left: 30px; /*En alt yazının afyon kocatepe yazısının ara çizgisi*/
+}
+
+.deneme4{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal;
+    float: left;
+    margin-top: -238px;
+    margin-left: 265px; 
+}
+
+.ençokziyare{
+    color: #777777;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal;
+    float: left;
+    margin-top: 35px;
+    margin-left: 40px; 
+}
+
+.deneme21{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal;
+    float: left;
+    margin-top: 35px;
+    margin-left: 290px; /*En alt yazının yönetimde olan cumhurbaşkanı  yazısının ara çizgisii*/
+}
+
+.deneme22{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal;
+    float: left;
+    margin-top: 33px;
+    margin-left: 30px; /*En alt yazının m.kemal atatürk yazısının ara çizgisi*/
+}
+
+.deneme23{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal;
+    float: left;
+    margin-top: -238px;
+    margin-left: 265px; /*En alt yazının afyon kocatepe yazısının ara çizgisi*/
+}
+
+
+
+li{
+    font-size: 12px;
+}
+
+.enalt{
+    position: relative;
+    margin-top: 60px;
+    margin-left: -490px;
+    margin-bottom: 12px;
+}
+
+.konum
+{
+    background-color: bisque;
+    float: left;
+    margin-top: 250;
+    margin-left: -620px; /* Buton Konumlandırma */
+
+}
+.instagram{
+    font-size: 14px;
+    position: relative;
+    float: left;
+    margin-top: -300px;
+    margin-left: 370px;
+} /* instagram iletişim formum */
+
+.kulüb{
+    font-size: 14px;
+    position: relative;
+    float: left;
+    margin-top: -300px;
+    margin-left: 770px;
+}/* Youtube kanal iletişim  */
+
+.kulüb2{
+    font-size: 14px;
+    position: relative;
+    float: left;
+    margin-top: 320px;
+    margin-left: -325px;
+}/* Youtube kanal iletişim  */
+
+.yazım{
+    position: relative;
+    float: left;
+    margin-top:-15px;
+    margin-left: -27px;
+}
+
+
+.button{
+    position: relative;
+    color: beige;
+    width: 220px;
+    height: 180px;
+    float: left;
+    margin-top: -859px;
+    margin-left:100px;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transition: all .1s ease-in;
+    -moz-transition:all.1s ease-in ;
+    -webkit-transition: all.1s ease-in; /* Buton oluşturma */
+}
+
+.button:hover
+{
+    position: relative;
+    z-index:0;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);  
+    -moz-transform: scale(1);
+    transform: scale(1); /* Buton Üstüne Gelince */
+}
+
+
+.konum2{
+    position: relative;
+    width: 220px;
+    height: 180px;
+    float: left;
+    margin-top: -635px;
+    margin-left:35px;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transition: all .1s ease-in;
+    -moz-transition:all.1s ease-in ;
+    -webkit-transition: all.1s ease-in; /* hakkımda ve iletişim Buton oluşturma */
+}
+
+.konum2:hover
+{
+    position: relative;
+    z-index:0;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);  
+    -moz-transform: scale(1);
+    transform: scale(1); /*  hakkımda ve iletişim Buton Üstüne Gelince */
+}
